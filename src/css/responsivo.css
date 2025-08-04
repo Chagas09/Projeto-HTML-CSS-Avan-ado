@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 0.8rem 2rem;
+  }
+
+  .container {
+    padding: 2rem;
+    background-image: url('images/bg-mobile.svg');
+  }
+}
